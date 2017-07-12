@@ -1,6 +1,6 @@
 {
   "name": "socketio-interface",
-  "version": "0.0.1",
+  "version": "0.0.10",
   "description": "a web interface to monitor / manage socketio connections",
   "main": "./lib/index",
   "scripts": {
