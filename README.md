@@ -49,7 +49,6 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-    socket.join('dicks');
   socket.on('chat message', function(msg){
     io.emit('chat message', msg);
   });
