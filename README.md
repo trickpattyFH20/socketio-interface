@@ -10,9 +10,10 @@ var socketInterface = require('socketio-interface');
 socketInterface(io[, config]);
 ```
 ## Config
-the config argument is optional and supports the following properties:
-- port: (Number) Defaults to 13333
-- ssl: (Object) Defaults to null
+the config argument supports the following properties:
+- password: (String) Defaults to: "toor"
+- port: (Number) Defaults to: 13333
+- ssl: (Object) Defaults to: null
   - key: String
   - cert: String
   - port: Number
