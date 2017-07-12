@@ -24,13 +24,13 @@ If you are working locally, start your socket.io server and then visit http://lo
 
 ## Endpoints
 
-/sockets/total
-/sockets/json
-/sockets/:id
-/sockets/:id/uptime
-
-/rooms/total
-/rooms/json
+/sockets/total  
+/sockets/json  
+/sockets/:id  
+/sockets/:id/uptime  
+  
+/rooms/total  
+/rooms/json  
   
 ## Example
 this is an example how you could implement socketio-interface on top of the [official socket.io chat example](https://github.com/socketio/chat-example):
