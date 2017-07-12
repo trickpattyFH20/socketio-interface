@@ -10,7 +10,7 @@ var socketInterface = require('socketio-interface');
 socketInterface(io[, config]);
 ```
 ## Config
-the config argument is optional and supports the following options
+the config argument is optional and supports the following properties:
 - port: (Number) Defaults to 13333
 - ssl: (Object) Defaults to null
   - key: String
@@ -18,7 +18,7 @@ the config argument is optional and supports the following options
   - port: Number
   
 ## Use
-The web interface will be hosted at the same domain/host your socket.io instance on port 13333 (or the port you specify).
+The web interface will be hosted at the same domain/host as your socket.io instance on port 13333 (or the port you specify).
 
 If you are working locally, start your socket.io server and then visit http://localhost:13333/sockets/json
 
