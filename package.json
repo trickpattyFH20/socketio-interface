@@ -1,0 +1,29 @@
+{
+  "name": "socketio-interface",
+  "version": "0.0.1",
+  "description": "a web interface to monitor / manage socketio connections",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trickpattyFH20/socketio-interface.git"
+  },
+  "keywords": [
+    "socketio",
+    "web",
+    "interface"
+  ],
+  "author": "Patrick Lawler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trickpattyFH20/socketio-interface/issues"
+  },
+  "homepage": "https://github.com/trickpattyFH20/socketio-interface#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
+}
