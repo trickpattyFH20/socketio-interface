@@ -1,5 +1,5 @@
 # socketio-interface
-socketio-interface is a web interface and API to monitor / manage socketio connections in your browser
+socketio-interface is a web interface and API to monitor / manage socketio connections
 
 ## Install
 `npm i --save socketio-interface`
