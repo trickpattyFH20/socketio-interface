@@ -4,7 +4,7 @@ socketio-interface is a web interface and API to monitor / manage socketio conne
 ## Install
 `npm i --save socketio-interface`
 
-## Use
+## Implement
 ```
 var socketInterface = require('socketio-interface');
 socketInterface(io[, config]);
@@ -16,6 +16,22 @@ the config argument is optional and supports the following options
   - key: String
   - cert: String
   - port: Number
+  
+## Use
+The web interface will be hosted at the same domain/host your socket.io instance on port 13333 (or the port you specify).
+
+If you are working locally, start your socket.io server and then visit http://localhost:13333/sockets/json
+
+## Endpoints
+
+/sockets/total
+/sockets/json
+/sockets/:id
+/sockets/:id/uptime
+
+/rooms/total
+/rooms/json
+  
 ## Example
 this is an example how you could implement socketio-interface on top of the [official socket.io chat example](https://github.com/socketio/chat-example):
 
